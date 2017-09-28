@@ -1,2 +1,2 @@
 # breindy.github.io
-my website
+Portfolio website - new changes coming shortly!
