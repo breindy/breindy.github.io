@@ -184,3 +184,10 @@ a:hover {
         column-count: 1;
       }
     }
+
+    @media (max-width: 418px){
+      .terminal_window {
+        width: 300px;
+        height: 350px;
+      }
+    }
