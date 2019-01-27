@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
 /*  background-color: #272727;*/
   padding: 10px;
 }
 
 #header-container {
+  font-family: 'Nunito';
   color: #0093FF;
 }
 
@@ -156,7 +159,7 @@ a:hover {
     }
 
     .social-icons li:hover .fa{
-      color: #fff;
+      color: #fff
     }
 
     li a { text-decoration: none; color:#000; }
@@ -164,3 +167,20 @@ a:hover {
     li a:hover { text-decoration: none; color:#000; }
     li a:focus { text-decoration: none; color:#000; }
     li a:hover, .navBtn:active { text-decoration: none; color:#000; }
+
+    @media (max-width: 768px){
+      .terminal_window {
+        width: 400px;
+        height: 300px;
+      }
+
+      .card-columns {
+        column-count: 1;
+      }
+    }
+
+    @media (max-width: 10000px){
+      .card-columns {
+        column-count: 1;
+      }
+    }
