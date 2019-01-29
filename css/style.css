@@ -6,7 +6,6 @@ body {
 }
 
 #header-container {
-  font-family: 'Nunito';
   color: #0093FF;
 }
 
@@ -18,12 +17,16 @@ body {
   width: 10%;
 }
 
-a::before {
+/*.gif-image {
+  width: 25%;
+}*/
+
+.terminal-window a::before {
   content: '';
   color: #0093FF;
 }
 
-a:hover {
+.terminal-window a:hover {
   text-decoration: none;
   color: white;
 }
@@ -159,35 +162,11 @@ a:hover {
     }
 
     .social-icons li:hover .fa{
-      color: #fff
+      color: #fff;
     }
 
-    li a { text-decoration: none; color:#000; }
+/*    li a { text-decoration: none; color:#000; }
     li a:visited { text-decoration: none; color:#000; }
     li a:hover { text-decoration: none; color:#000; }
     li a:focus { text-decoration: none; color:#000; }
-    li a:hover, .navBtn:active { text-decoration: none; color:#000; }
-
-    @media (max-width: 768px){
-      .terminal_window {
-        width: 400px;
-        height: 300px;
-      }
-
-      .card-columns {
-        column-count: 1;
-      }
-    }
-
-    @media (max-width: 10000px){
-      .card-columns {
-        column-count: 1;
-      }
-    }
-
-    @media (max-width: 418px){
-      .terminal_window {
-        width: 300px;
-        height: 350px;
-      }
-    }
+    li a:hover, .navBtn:active { text-decoration: none; color:#000; }*/
