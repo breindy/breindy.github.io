@@ -17,6 +17,10 @@ body {
   width: 10%;
 }
 
+.navbar-brand{
+  font-family: Nunito;
+}
+
 /*.gif-image {
   width: 25%;
 }*/
