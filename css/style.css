@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+/*  background-color: #272727;*/
+  padding: 10px;
+}
+
+#header-container {
+  color: #0093FF;
+}
+
+.experience-cards {
+  margin-bottom: 25px;
+}
+
+.card-image {
+  width: 10%;
+}
+
+.navbar-brand{
+  font-family: 'Nunito', sans-serif;
+}
+
+/*.gif-image {
+  width: 25%;
+}*/
+
+.terminal-window a::before {
+  content: '';
+  color: #0093FF;
+}
+
+.terminal-window a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.terminal_window {
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  text-align: left;
+  margin-top: 15px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.terminal_window header {
+  background-color: #E0E8F0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+.terminal_window .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.red_btn {
+  background-color: #E75448;
+}
+
+.green_btn {
+  background-color: #3BB662;
+}
+
+.yellow_btn {
+  background-color: #E5C30F;
+}
+
+.terminal_window {
+  background-color: #0D1F2D;
+  color: #F4FAFF;
+  font-size: 11pt;
+}
+
+.terminal_text {
+  margin-left: 20px;
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+}
+
+#typed-strings {
+  display: inline-block;
+  postiion: relative;
+}
+
+#typed {
+  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+  margin-left: 15px;
+}
+
+.social-icons{
+     margin: 0 auto;
+     padding: 0;
+     left: 50%;
+     display: table;
+}
+
+.social-icons li{
+      list-style: none;
+      float: left;
+      margin: 0px;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      background: #fff;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      color: #1D2731;
+      font-size: 50px;
+      z-index: 1;
+      transition: 0.5s ease-in-out;
+}
+
+.social-icons li:before{
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: -100%;
+      background: #ccc;
+      z-index: -1;
+      border-radius: 50%;
+      transform: scale(0);
+      transition: 0.3s ease-in-out;
+    }
+
+    .social-icons li:after{
+      content:'';
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      right: -100%;
+      top: 0;
+      background: rgba(255,255,255,0.3);
+      transition: 0.5s ease-in-out;
+      transition-delay: 0.3s;
+    }
+
+    .social-icons li:hover:before{
+      left: 0;
+      transform: scale(0.9);
+    }
+
+    .social-icons li:nth-child(1):before{
+      background: #3b5999;
+    }
+
+    .social-icons li:nth-child(2):before{
+      background: #19B5FE;
+    }
+
+    .social-icons li:nth-child(3):before{
+      background: #0077B5;
+    }
+
+    .social-icons li .fa{
+      transition: 0.3s ease-in-out;
+    }
+
+    .social-icons li:hover .fa{
+      color: #fff;
+    }
+
+/*    li a { text-decoration: none; color:#000; }
+    li a:visited { text-decoration: none; color:#000; }
+    li a:hover { text-decoration: none; color:#000; }
+    li a:focus { text-decoration: none; color:#000; }
+    li a:hover, .navBtn:active { text-decoration: none; color:#000; }*/
