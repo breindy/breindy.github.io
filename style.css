@@ -118,6 +118,42 @@ li {
   }
 }
 
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#about {
+  animation: transitionIn 0.75s;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about-header {
+  margin-top: 2.5%;
+  color: #f97d35;
+}
+
+#about-bio {
+  padding-top: 2.5%;
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#photo-id {
+  margin-top: 2.5%;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
 /* .about {
   width: 100%;
   height: 100vh;
