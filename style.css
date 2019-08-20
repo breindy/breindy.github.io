@@ -67,6 +67,7 @@ li {
   padding: 0;
   float: left;
   display: flex;
+  line-height: 1.5;
 }
 
 .hero--left-content {
@@ -149,8 +150,10 @@ li {
 #about-bio {
   padding-top: 2.5%;
   font-size: 18px;
-  width: 80%;
+  width: 30em;
+  /* width: 80%; */
   margin: 0 auto;
+  line-height: 1.5;
 }
 
 #photo-id {
