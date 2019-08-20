@@ -7,7 +7,12 @@
 body {
   background: white;
   color: #359cf9;
-  font-family: 'Circular Std';
+  font-family: 'Gotham Book', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family:  'Circular Std Bold', sans-serif;
 }
 
 a {
@@ -35,6 +40,8 @@ nav {
 li {
   display: inline-block;
   padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .navigation {
