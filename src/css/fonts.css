@@ -1,12 +1,12 @@
 @font-face {
-    src: url('/fonts/CircularStdBold.woff') format('woff');
+    src: url('/src/fonts/CircularStdBold.woff') format('woff');
     font-family: 'Circular Std Bold';
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    src: url('/fonts/GothamBook.woff') format('woff');
+    src: url('/src/fonts/GothamBook.woff') format('woff');
     font-family: 'Gotham Book';
     font-style: normal;
     font-weight: normal;
