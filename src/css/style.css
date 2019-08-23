@@ -8,11 +8,16 @@ body {
   background: white;
   color: #359cf9;
   font-family: 'Gotham Book', sans-serif;
-
 }
 
-h1, h2, h3, h4, h5, h6, nav {
-  font-family:  'Circular Std Bold', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: 'Circular Std Bold', sans-serif;
 }
 
 a {
@@ -148,12 +153,17 @@ li {
 }
 
 #about-bio {
-  padding-top: 10%;
+  padding-top: 5%;
   font-size: 18px;
   width: 30em;
-  /* width: 80%; */
   margin: 0 auto;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 1024px) {
+  #about-bio {
+    padding-top: 10%;
+  }
 }
 
 #photo-id {
