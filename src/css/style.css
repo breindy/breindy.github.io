@@ -160,9 +160,9 @@ li {
   line-height: 1.5;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #about-bio {
-    padding-top: 10%;
+    padding-top: 15%;
   }
 }
 
