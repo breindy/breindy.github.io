@@ -25,6 +25,10 @@ a {
   color: #359cf9;
 }
 
+.selected {
+  color: #f97d35;
+}
+
 a:hover {
   color: #f97d35;
 }
@@ -158,6 +162,7 @@ nav {
   width: 30em;
   margin: 0 auto;
   line-height: 1.5;
+  color: black;
 }
 
 @media screen and (min-width: 1024px) {
@@ -197,7 +202,6 @@ nav {
   margin-bottom: 5%;
   width: 80%;
   height: 500px;
-  /* background-color: lightseagreen;  */
   color: black;
   /* background-color: yellow;  */
 }
@@ -250,10 +254,10 @@ nav {
 }
 
 .experience-box {
-  border: solid 2px black;
+  border: solid 2px #359cf9;
   border-radius: 10px;
   margin: 20px 20px;
-  background-color: #f2f2ef;
+  /* background-color: #f8f8f8; */
   
 }
 
@@ -264,10 +268,16 @@ nav {
   padding-left: 2vh;
 }
 
+.experience-role {
+  padding-top: 5%;
+ text-align: center;
+}
+
 .experience-description {
   padding-bottom: 2vh;
   padding-left: 2vh;
   padding-right: 2vh;
+  text-align: center;
 }
 
 .experience--skills-used {
@@ -280,5 +290,4 @@ nav {
 .experience-bullet {
   text-transform: uppercase;
   font-weight: 600;
-
 }
