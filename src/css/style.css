@@ -42,7 +42,7 @@ nav {
   padding: 30px 50px;
 }
 
-li {
+.li-navStyle {
   display: inline-block;
   padding: 0 15px;
   text-transform: uppercase;
@@ -184,14 +184,41 @@ li {
 
 .experience--left{
   width: 50%;
-  display: inline-block;
-  background-color: orange; 
+  /* display: inline-block; */
+  /* background-color: orange;  */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.experience--left-content {
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  height: 500px;
+  /* background-color: lightseagreen;  */
+  color: black;
+  /* background-color: yellow;  */
+}
+
+.experience--left-content img {
+  padding-top: 15px;
+  width: 40%;
+  margin: auto;
+  display: block;
+
+}
+
+.left-experience-description{
+  margin-top: 5%;
+  line-height: 25px;
 }
 
 .experience--right {
   width: 50%;
   display: inline-block;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 
 .experience--right-content{
@@ -200,12 +227,9 @@ li {
   margin-bottom: 10%;
   width: 75%;
   height: 450px;
-  background-color: yellowgreen; 
-  color: white;
-  /* overflow: hidden;
-  overflow-y: scroll; */
-
-  overflow: auto
+  /* background-color: lightseagreen;  */
+  color: black;
+  overflow: auto;
 }
 
 #right-content::-webkit-scrollbar {
@@ -223,4 +247,38 @@ li {
   border-radius: 10px;
 	box-shadow: inset 0 0 6px rgba(0, 91, 170, 0.8);
 	background-color: #359cf9;
+}
+
+.experience-box {
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 20px 20px;
+  background-color: #f2f2ef;
+  
+}
+
+.experience--company-logo {
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 2vh;
+}
+
+.experience-description {
+  padding-bottom: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+.experience--skills-used {
+  padding-top: 5%;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.experience-bullet {
+  text-transform: uppercase;
+  font-weight: 600;
+
 }
