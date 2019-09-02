@@ -191,10 +191,11 @@ nav {
 }
 
 .experience--left-content {
+  padding-top: 5%;  
   margin: 0 auto;
   margin-top: 10%;
   margin-bottom: 5%;
-  width: 80%;
+  width: 50%;
   height: 500px;
   color: black;
 }
@@ -292,12 +293,49 @@ nav {
   font-weight: 600;
 }
 
-.hideExpBox{
-  display: none;
+/* TABS */ 
+/* WIP */
+.tabs{
+  display: flex;
 }
 
+.tabs__sidebar {
+  padding-top: 15%;
+  width: 125px;
+  flex-shrink: 0;
+}
 
-#currentExpBox {
+.tabs__button {
+  display: block;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+.tabs__button:active {
+  background: white;
+}
+
+.tabs__button--active {
+  font-weight: bold;
+  border-right: 3px solid #359cf9;
+  background: white;
+}
+
+.tabs__content {
+  display: none; 
+  color: black;
+  padding: 15px;
+  font-size: 0.8rem;
+}
+
+.tabs__content--active {
+  animation: transitionIn 0.75s;
   display: block;
 }
 
+.tabs__content > :first-child {
+  margin-top: 0;
+}
