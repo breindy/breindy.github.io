@@ -179,8 +179,6 @@ nav {
 }
 
 .experience--left{
-  animation: transitionIn 0.75s;
-  width: 50%;
   display: flex;
   justify-content: space-around;
 
@@ -332,6 +330,7 @@ nav {
 }
 
 .tabs__content--active {
+  width: 100%;
   animation: transitionIn 0.75s;
   display: block;
 }
