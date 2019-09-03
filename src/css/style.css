@@ -270,12 +270,14 @@ nav {
 }
 
 .tabs__sidebar {
+
   padding-top: 15%;
-  width: 125px;
+  width: 150px;
   flex-shrink: 0;
 }
 
 .tabs__button {
+  font-size: 16px;
   display: block;
   padding: 10px;
   border: none;
@@ -375,7 +377,7 @@ nav {
    transform: scale(0);
    transition: 0.3s ease-in-out;
  }
-/
+
 
  .social-icons li .fa{
    transition: 0.3s ease-in-out;
