@@ -443,7 +443,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   /* margin: auto;
   position: absolute;
@@ -470,13 +470,22 @@ nav {
 }
 
 .project-preview {
-  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
   height: 40vh;
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
 }
 
 .project-description{
   line-height: 25px;
 }
+
+.project-logo {
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 
