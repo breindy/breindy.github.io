@@ -403,3 +403,80 @@ nav {
   text-align: center;
   color: #f97d35;
 }
+
+
+
+
+/* PROJECT/WORK SECTION */
+
+.project-container__1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  height: 85.2vh;
+}
+
+
+.project-container__2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.project-container__3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.project-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border: 2px solid red;
+
+  /* margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0; */
+}
+
+.project-title{
+  padding-bottom: 20px;
+}
+
+.project-content__left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+  height: 40vh;
+  /* border: 2px solid yellow; */
+
+}
+
+.project-content__right{
+  width: 50%;
+}
+
+.project-preview {
+  width: 70%;
+  height: 40vh;
+  border: 2px solid pink;
+}
+
+.project-description{
+  line-height: 25px;
+}
+
+
