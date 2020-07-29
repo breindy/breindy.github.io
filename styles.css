@@ -36,7 +36,7 @@
 
 .navbar-menu {
   animation: navAnimOpen 0.2s ease-in-out;
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-weight: 500;
   color: black;
 }
@@ -102,13 +102,13 @@ a.navbar-item:hover {
 }
 
 .title {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-weight: 500;
   color: black;
 }
 
 .subtitle {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-weight: 500;
   color: black;
 }
@@ -285,7 +285,7 @@ img#landing-pfp {
   font-size: 15px;
 }
 .about-school {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-size: 15px;
   font-weight: 500;
 }
@@ -339,7 +339,7 @@ img#landing-pfp {
 }
 
 .slide-title {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-weight: 500;
 }
 
@@ -408,7 +408,7 @@ img#landing-pfp {
   margin: 0 auto;
   display: inline-block;
   color: #399cf9;
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-weight: 500;
 }
 
@@ -431,7 +431,7 @@ img#landing-pfp {
 }
 
 .experience-role {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   font-size: 0.9em;
   font-weight: 500;
   color: #359cf9;
@@ -459,7 +459,7 @@ img#landing-pfp {
   padding: 50px 0;
 }
 .tab-header > div > p {
-  font-family: Gotham;
+  font-family: Gotham Medium;
   height: 50px;
   line-height: 50px;
   font-size: 0.9em;
