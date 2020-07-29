@@ -1,6 +1,6 @@
 * {
   font-size: 18px;
-  font-family: Gotham;
+  font-family: "gothamblack";
   font-style: normal;
   color: black;
 }
@@ -37,7 +37,7 @@
 .navbar-menu {
   font-weight: 500;
   animation: navAnimOpen 0.2s ease-in-out;
-  font-family: Gotham;
+  font-family: "gothamblack";
   font-style: normal;
   color: black;
 }
