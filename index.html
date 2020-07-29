@@ -1,52 +1,318 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <link rel="icon" type="image/png" href="/src/assets/pixel-me-new.png" />
-
-    <link rel="stylesheet" href="/src/css/style.css" />
-    <link rel="stylesheet" href="/src/css/fonts.css" />
-
-    <link
-      rel="preload"
-      as="font"
-      href="/src/fonts/CircularStdBold.woff"
-      type="font/woff"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="preload"
-      as="font"
-      href="/src/fonts/GothamBook.woff"
-      type="font/woff"
-      crossorigin="anonymous"
-    />
-    <title>Michelle Uy | Front-End Engineer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michelle Uy - Front End/UI Developer</title>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <nav>
-      <div class="navbar">
-        <ul class="navigation">
-          <li class="li-navStyle"><a href="about.html">About</a></li>
-          <li class="li-navStyle"><a href="experience.html">Experience</a></li>
-          <li class="li-navStyle"><a href="work.html">Work</a></li>
-          <li class="li-navStyle"><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="hero--left">
-        <div class="hero--left-content">
-          <h1>Hi, my name is Michelle Uy 👋🏻</h1>
-          <p>Front End Engineer / UX Designer</p>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://breindy.dev">
+        
+            <p id="navbar-logo">muy<span id="navbar-logo__dot">.</span></p>
+            </a>
+        
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
         </div>
-      </div>
-      <div class="hero--right">
-        <img src="/src/assets/me-web.png" />
-      </div>
-    </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item current itemLinks" href="#home">
+                    Home
+                </a>
+                <a class="navbar-item itemLinks" href="#about">
+                    About
+                </a>
+                <a class="navbar-item itemLinks" href="#projects">
+                    Projects
+                </a>
+                <a class="navbar-item itemLinks" href="#experience">
+                    Experience
+                </a>
+                <a href="https://drive.google.com/file/d/1frOQcS4eP1fwCFKxFosRCx2woAd6NC4K/view?usp=sharing" target="_blank" class="navbar-item itemLinks navbar-button button">
+                    Resume
+                </a>
+            </div>
+        </div>
+        </nav>
+
+        <!-- Vertical Footer -->
+        <div class="social-footer">
+            <a href="mailto:michelleuyccny@gmail.com" target="_blank" class="social mail"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/michelleuy" target="_blank" class="social linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.github.com/breindy" target="_blank" class="social github"><i class="fa fa-github"></i></a>
+            <div class="vertical-line"></div>
+        </div>
+
+        <div id="contentsContainer">
+            <div class="wrapper">
+                <!-- Landing Content -->
+                <section class="section currentSection" id="home">
+                    <div class="container landing-container">
+                        <div class="columns is-vcentered">
+                            <div class="column is-half landing-left">
+                                <div class="landing-left__heading-description">
+                                    <div class="landing-left__heading-description__content">
+                                        <h3 class="title is-3">Hi, I'm Michelle Uy! 👋🏻</h3>
+                                        <p>I am a Software Engineer based in NYC 
+                                        <br> currently looking for Full-Time opportunities.</p>
+                                    </div>
+                                    
+                                    <div class="landing-left__heading-description__skillset">
+                                        <p class="subtitle is-5">My skills and expertise includes:</p>
+                                        <div class="landing-left__heading-description__skillset-skills">
+                                            <span>
+                                                <p class="skill">JavaScript</p>
+                                                <p class="skill">React</p>
+                                                <p class="skill">Node</p>
+                                                <p class="skill">Express</p>
+                                                <p class="skill">Python</p>
+                                            </span>
+                                            
+                                            <span>
+                                                <p class="skill">Flask</p>
+                                                <p class="skill">SQL</p>
+                                                <p class="skill">D3.js</p>
+                                                <p class="skill">Django</p>
+                                                <p class="skill">Ruby</p>
+                                                <p class="skill">Rails</p>
+                                            </span>
+
+                                            <span>
+                                                <p class="skill">Sketch</p>
+                                                <p class="skill">Figma</p>
+                                                <p class="skill">Illustrator</p>
+                                                <p class="skill">Graphic Design</p>
+                                                <p class="skill">Web Development</p>
+                                            </span>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="landing-left__heading-description__cta">
+                                        <a class="button landing-cta__learn-more" href="#about">Learn More</a>
+                                        <a class="button landing-cta__get-in-touch" href="mailto:michelleuyccny@gmail.com">Get in Touch</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                <div class="column is-half landing-right">
+                                    <div class="landing-right-content">
+                                        <img src="/assets/landing-profile-picture.jpg" id="landing-pfp">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    <!-- ABOUT SECTION -->
+                    <div class="other-sections">
+                    <section class="section">
+                        <div class="container column is-full is-vertical-center is-centered about-container">
+                            <div class="column is-three-fifths is-vertical-center about-content" id="about" style="margin: auto;">
+                                <p></p>
+                                <div class="about-content-container ">
+                                <div class="about-picture">
+                                    
+                                </div>
+                                <div class="about-description">
+                                    <p>My name is Michelle, and I recently graduated from <span class="about-school">The City College of New York</span> with a B.S in Computer Science.</p>
+                                    
+                                    </br>
+
+                                    <p>During my time there, I discovered my love for web development, and my passion for creating aesthetically 
+                                        pleasing web applications and interfaces.
+                                    </p>
+
+                                    </br>
+
+                                    <p>
+                                        I am a life long learner of all technologies new and old and
+                                        passionate about the growth and development of the eLearning industry.
+                                    </p>
+
+                                    </br>
+
+                                    <p>
+                                        In my free time, I enjoy long walks, doing graphic design,
+                                        motion graphics, entrepreneurship, and cardistry!
+                                    </p>
+
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EXPERIENCE SECTION -->
+                    <section class="section">
+                        <div class="container experience-container">
+                            <div class="is-vcentered experience-content" id="projects">
+                                <p></p>
+                                <div class="column is-full" >
+                                    <div class="slider">
+                                        <div class="arrow left"></div>
+                                        
+                                        <div class="slide-box" onclick="changeSlideLinks()">
+                                        </div>
+                                        <span><i class="fa fa-external-link slideLink" ></i></span>
+                                        <div class="arrow right"></div>
+                                    </div>
+                                    <div class="slider-content">
+                                        <div class="slideContent currentSlider">
+                                            <p class="slide-title">SafeTrade - Safe Stock Trading Platform: Front End</p>
+                                            <p class="slide-description">Designed and developed a web application/platform
+                                                that allows users to safely trade stocks using a professionally 
+                                                curated prediction model
+                                            </p>
+                                            <div class="separation"></div>
+                                            <p>Technologies Used</p>
+                                            <div class="project-technologies">
+                                                <p class="project-technology">HTML/CSS</p>
+                                                <p class="project-technology">JS/ES6</p>
+                                                <p class="project-technology">React</p>
+                                                <p class="project-technology">Postgresql</p>
+                                                <p class="project-technology">Node</p>
+                                                <p class="project-technology">Python</p>
+    
+                                            </div>
+                                        </div>
+
+                                        <div class="slideContent">
+                                            <p class="slide-title">SigmaTech - Modern College Management System: Front End</p>
+                                            <p class="slide-description">Developed a web platform that gives students and professors a modern way of tracking classes, schedules, grades, curriculums and more.
+                                            </p>
+                                            <div class="separation"></div>
+                                            <p>Technologies Used</p>
+                                            <div class="project-technologies">
+                                                <p class="project-technology">HTML/CSS</p>
+                                                <p class="project-technology">Javascript</p>
+                                                <p class="project-technology">Node/Express</p>
+                                                <p class="project-technology">SQL</p>
+                                                <p class="project-technology">Handlebars</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="slideContent">
+                                            <p class="slide-title">weDev - Online Project Bidding System: Front End</p>
+                                            <p class="slide-description">Designed and developed an internet marketplace where developers and clients can connect to work with each other to work on the desired project using posts, ratings, feedback and more.
+                                            </p>
+                                            <div class="separation"></div>
+                                            <p>Technologies Used</p>
+                                            <div class="project-technologies">
+                                                <p class="project-technology">HTML/CSS</p>
+                                                <p class="project-technology">JS/ES6</p>
+                                                <p class="project-technology">React</p>
+                                                <p class="project-technology">Postgresql</p>
+                                                <p class="project-technology">Node</p>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section">
+                        <div class="container projects-container">
+                            <div class="is-vcentered projects-content" id="experience">
+                                <p></p>
+                                <div class="tabbed columns">  
+                                    <div class="tab-header column is-one-quarter">
+                                        <div class="active">
+                                            <p>CSforALL</p>
+                                        </div>
+                                        <div>
+                                            <p>CSforALL</p>
+                                        </div>
+                                        <div>
+                                            <p>CodePath</p>
+                                        </div>
+                                        <div>
+                                            <p>Win2Learn</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tab-indicator"></div>
+                                   
+
+                                    <div class="tab-content column">
+                                        <div class="active experience-content">
+                                            <img src="assets/logos/cs4all-logo.png" class="experience--company-logo">
+                                            <p class="experience-role">UI Developer</p>
+                                            <p class="experience-description">Designed and implemented front end user interfaces, 
+                                                data visualizations and web applications using D3.js, Python, React that 
+                                                help support various projects.</p>
+                                            <p class="experience-description">Created wireframes to build UI mockups that anticipate user’s 
+                                                needs in order to provide accessibility and ease-of-use to all using 
+                                                Figma, Photoshop and Illustrator.</p>
+                                            <p class="experience-description">Collaborated with Developers, Project Managers and Executive 
+                                                to help envision product interfaces and experiences using Agile and Scrum.</p>
+                                        </div>
+                                        <div>
+                                            <img src="assets/logos/cs4all-logo.png" class="experience--company-logo">
+                                            <p class="experience-role">Graphic and Web Design Intern</p>
+                                            <p class="experience-description">Implemented and designed visually appealing graphical user interfaces for various CSforALL research
+                                                projects to produce designs that can process data, visualize data using D3.js and Python.</p>
+                                            <p class="experience-description">Worked alongside Research Associates in developing visual graphics and designs, and web-based
+                                                user interfaces to support project findings using Illustrator, Sketch, React, Node and Express.</p>
+                                        </div>
+                                        <div>
+                                            <img src="assets/logos/codepath-logo.png" class="experience--company-logo">
+                                            <p class="experience-role">Lead Technical Program Manager</p>
+                                            <p class="experience-description">Lead 4 other Technical Program Managers at City College and provided first line support to students in Facebook-CodePath Cyber Security Course.</p>
+                                            <p class="experience-description">Taught in-class sessions at City College and assist students with in-class labs, providing an introduction to OWASP Top 10 Web Vulnerabilities.</p>
+                                        </div>
+                                        <div>
+                                            <img src="assets/logos/win2learn-logo.png" class="experience--company-logo">
+                                            <p class="experience-role">Teacher / Web Developer Intern</p>
+                                            <p class="experience-description">Created extensive lesson plans to teach Game Design to 30 students (K-8) using Python and JavaScript.</p>
+                                            <p class="experience-description">Developed a real-time messaging application to allow users to share JavaScript code to other Starcode players using HTML, Bootstrap, jQuery, Node, Express, Socket.io</p>
+                                            <p class="experience-description">Improved mobile-friendly website for better User Interface that helped increased student learning game, Starcoder, workshop engagement by 50%.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </section>
+                    </div>
+
+                </div>
+            </div>
+
+        <!-- NAVIGATION -->
+        <div id="navigation">
+            <ul>
+                <li class="itemLinks active" ></li>
+                <li class="itemLinks"></li>
+                <li class="itemLinks"></li>
+                <li class="itemLinks"></li>
+            </ul>
+        </div>
+
+
+        <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/tab.js"></script>
   </body>
 </html>
